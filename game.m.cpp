@@ -31,20 +31,6 @@ int main(int argc, char* argv[])
             Move m = moves.nextMove();
             board.processMove(m.knight, m.direction);
         }
-
-    //         board.processMove('R', 'S');
-    // board.processMove('R', 'S');
-    // board.processMove('R', 'E');
-    // board.processMove('R', 'E');
-    // board.processMove('R', 'E');
-    // board.processMove('R', 'E');
-    // board.processMove('R', 'E');
-    // board.processMove('R', 'E');
-    // board.processMove('R', 'E');
-    // board.processMove('R', 'N');
-    // board.processMove('R', 'N');
-    // board.processMove('R', 'N');
-
     } catch (const std::exception& e) {
         std::cout << "Failed with exception: " << e.what() << std::endl;
     }
